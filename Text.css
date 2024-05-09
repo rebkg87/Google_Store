@@ -1,0 +1,82 @@
+
+body {
+    font-family: "Inter";
+}
+
+h1 {
+    font-family: "Inter";
+    font-size: 35px;
+    color: #353a49;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Inter";
+    font-size: 20px;
+    color: #353a49;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Inter";
+    font-size: 12px;
+    color: #58626b;
+}
+
+p.bold {
+    font-family: "Inter";
+    font-size: 12px;
+    color: #58626b;
+    font-weight: bold;
+}
+
+p.boldblue {
+    font-family: "Inter";
+    font-size: 12px;
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+.footer-links {
+    font-family: "Inter";
+    font-size: 8px;
+    color: #58626b;
+    text-decoration: none;
+}
+
+.menu, 
+.left {
+    font-size: 13px;
+}
+
+
+a {
+    font-family: "Inter";
+    color: #58626b;
+    text-decoration: none;
+
+}
+
+a:active, 
+a:focus,
+.active {
+    font-family: "Inter";
+    color: #1a73e8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+button {
+    font-family: "Inter";
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+@media (min-width: 390px) and (max-width: 800px) {
+    h1 {
+        font-size: 31px;
+       }
+}

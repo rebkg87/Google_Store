@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Store</title>
-    <link rel="stylesheet" href="./style.css">    
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./Text.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">    
@@ -16,8 +17,8 @@
             <nav class="menunav">
                 <ul class="menu">
                     <li> <a href="">Phones</a></li>
-                    <li><a href="./index.html" class="active">Earbuds</a></li>
-                    <li><a href="./watches.html">Watches</a></li>
+                    <li><a href="./index.html">Earbuds</a></li>
+                    <li><a href="./watches.html" class="active">Watches</a></li>
                     <li><a href="">Smart Home</a></li>
                     <li><a href="">Accessories</a></li>
                     <li><a href="">Subsciptions</a></li>
@@ -36,43 +37,40 @@
      <div class="product-details">
         <a href=""><img src="./images/images/icons/Arrow.svg" class="flecha"></a> <p class="see-product">See product details</p>
      </div>
-        <section class="left">
-            <div class="listadofotos">
-                    <br>
-                    <img class="fotos-earbuds" src="./images/images/earbuds/earbuds_01.png">
-                    <br>
-                    <img class="fotos-earbuds" src="./images/images/earbuds/earbuds_02.png" alt="earbuds_02">
-                    <br>
-                    <img class="fotos-earbuds" src="./images/images/earbuds/earbuds_03.png" alt="earbuds_03">
-                    <br>
-                    <img class="fotos-earbuds" src="./images/images/earbuds/earbuds_04.png" alt="earbuds_04">
-            </div>
+        <section class="left-watches">
             <div class="foto-producto">
-                <img class="earbuds01" src="./images/images/earbuds/earbuds_01.png">
+                <img class="watches" src="./images/images/smartwatch/smartwatch_black.png">
             </div>
         </section>
         <section class="right">
             <div class="textos-producto">
-                <h1>Google Pixel Buds Pro</h1>
+                <h1>Fitbit Inspire 3</h1>
                 <br>
-                <p class="bold">Music & Sound</p>
+                <p class="bold">Health & Fitness Tracker</p>
                 <br>
-                <h2>229 €</h2>
+                <h2>99,95 €</h2>
                 <hr>
             </div>
             <div>
                 <p>Choose a color</p>
-                <span class="circulos-colores">
-                    <div class="circulo-1"></div>
-                    <div class="circulo-2"></div>
-                    <div class="circulo-3"></div>
-                    <div class="circulo-4"></div>
-                    <div class="circulo-5"></div>
-                    <div class="circulo-6"></div>
-                </span>
+                <div class="listado-watches">
+                    <div class="watchblack">
+                        <img src="./images/images/smartwatch/smartwatch_black.png" alt="watch-pink">
+                        <p class="watches-color">Midnight Zen</p>
+                    </div>
+                    <div class="watchpink">
+                        <img src="./images/images/smartwatch/smartwatch_pink.png" alt="watch-black">
+                        <p class="watches-color">Liliac Bliss</p>
+                    </div>
+                    <div class="watchyellow">
+                        <img src="./images/images/smartwatch/smartwatch_yellow.png" alt="watch-yellow">
+                        <p class="watches-color">Morning Glow</p>
+                    </div>
+                </div>
+
             </div>
             <div class="pay-box">
-                <h1>229 €</h1>
+                <h1>99,95 €</h1>
                 <hr class="barra-divisoria">
                 <div class="button-form">
                     <form action="#">
@@ -84,9 +82,10 @@
                     <button class="add-to-cart">Add to cart</button>
                     <div class="Delivers">
                             <img src="./images/images/icons/Delivery.svg"><p class="bold">Delivers 29 Apr to</p><p class="boldblue">08023</p>
+                        </span>
                     </div>
-                    <br>
-                </div>
+                </span>               
+                <br>
             </div>
         </section>       
     </main>

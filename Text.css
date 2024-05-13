@@ -8,6 +8,7 @@ h1 {
     font-size: 35px;
     color: #353a49;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 h2 {
@@ -75,8 +76,17 @@ button {
     font-size: 12px;
 }
 
-@media (min-width: 390px) and (max-width: 800px) {
+
+
+
+/* Mobil */ @media (max-width: 576px) {
+    
     h1 {
         font-size: 31px;
        }
+
+    p.watches-color {
+        width: 40px;
+        text-align: center;
+    }
 }

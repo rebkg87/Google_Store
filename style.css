@@ -143,13 +143,19 @@ main {
     margin-top: 100px;
 }
 
+.circulo-fondoblanco {
+    background: white;
+    border-radius: 50%;
+    border:1px solid #58626b;
+    width: 40px;
+    height: 40px;
+}
+
 
 .fotos-earbuds {
     width:40px;
-    height:40px;
-    border-radius:20px;
-    border:1px solid #58626b;
-    margin-right: 35px;
+    margin-right: 30px;
+    margin-top: 4px;
 }
 
 hr {
